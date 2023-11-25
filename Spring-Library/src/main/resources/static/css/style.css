@@ -1,0 +1,28 @@
+/* Estilizando o cabeçalho da tabela */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Estilizando linhas ímpares da tabela com fundo cinza claro */
+tr:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+
+/* Estilizando links nas células da tabela */
+a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
